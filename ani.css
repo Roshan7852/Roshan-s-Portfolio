@@ -1,0 +1,23 @@
+.roshan{
+    color: #fff;
+    position: relative;
+    padding-left: 10px 10px;
+}
+.roshan::before{
+    content: "Roshan";
+    width: 10%;
+    color: #6e93f7;
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    border-right: .0rem solid #000;
+    animation: slide 3s linear infinite;
+    -webkit-animation: slide 3s linear infinite;
+    overflow: hidden;
+}
+@keyframes slide{
+    0% {width: 0%;}
+    50% {width: 71%;}
+    100% {width: 0%;}
+
+}
